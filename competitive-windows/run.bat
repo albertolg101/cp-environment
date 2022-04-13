@@ -1,0 +1,1 @@
+problems\%problem%.exe
