@@ -1,6 +1,6 @@
 # cp-enviroment
 
-[c++17 Windows](https://nuwen.net/mingw.html)
+[C++17 Windows](https://nuwen.net/mingw.html)
 
 [CF Tool](https://github.com/xalanq/cf-tool/releases)
 
