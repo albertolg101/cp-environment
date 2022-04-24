@@ -1,7 +1,11 @@
-copy problems\p.cpp problems\a.cpp
-copy problems\p.cpp problems\b.cpp
-copy problems\p.cpp problems\c.cpp
-copy problems\p.cpp problems\d.cpp
-copy problems\p.cpp problems\e.cpp
-copy problems\p.cpp problems\f.cpp
-copy problems\p.cpp problems\g.cpp
+TEMPLATE_DIR='..\template.cpp'
+
+IF not EXIST problems MKDIR problems
+
+COPY %TEMPLATE_DIR% problems\a.cpp
+COPY %TEMPLATE_DIR% problems\b.cpp
+COPY %TEMPLATE_DIR% problems\c.cpp
+COPY %TEMPLATE_DIR% problems\d.cpp
+COPY %TEMPLATE_DIR% problems\e.cpp
+COPY %TEMPLATE_DIR% problems\f.cpp
+COPY %TEMPLATE_DIR% problems\g.cpp

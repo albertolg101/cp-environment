@@ -1,3 +1,1 @@
-cd problems
-..\..\cf submit %contest%%1
-cd ..
+..\cf submit -f problems/%problem%.cpp %contest%%1
