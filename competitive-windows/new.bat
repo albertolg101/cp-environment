@@ -1,4 +1,4 @@
-TEMPLATE_DIR='..\template.cpp'
+SET TEMPLATE_DIR=..\template.cpp
 
 IF not EXIST problems MKDIR problems
 
