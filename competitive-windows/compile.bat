@@ -1,1 +1,1 @@
-..\..\MinGW\bin\g++ -std=c++17 problems\%problem%.cpp -o problems\%problem%.exe
+..\MinGW\bin\g++ -std=c++17 problems\%problem%.cpp -o problems\%problem%.exe
