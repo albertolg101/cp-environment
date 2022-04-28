@@ -2,10 +2,12 @@
 # cd '/Users/albe/Mio/Programador Dedicado/codes/cf'
 TEMPLATE_DIR='../template.cpp'
 
-if [[ ! -d problems ]]
+if [[ -d problems ]]
 then
-    mkdir problems  
+    rm -r problems
 fi
+
+mkdir problems  
 
 cp $TEMPLATE_DIR problems/b.cpp
 cp $TEMPLATE_DIR problems/a.cpp

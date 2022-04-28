@@ -1,6 +1,8 @@
 SET TEMPLATE_DIR=..\template.cpp
 
-IF not EXIST problems MKDIR problems
+IF EXIST problems RD /S /Q problems
+
+MKDIR problems
 
 COPY %TEMPLATE_DIR% problems\a.cpp
 COPY %TEMPLATE_DIR% problems\b.cpp
