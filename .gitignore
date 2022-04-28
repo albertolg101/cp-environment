@@ -1,0 +1,7 @@
+# MacOS files
+/.DS_STORE
+
+# Production files
+/cf
+/MinGW/
+problems
