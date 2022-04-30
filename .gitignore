@@ -2,6 +2,6 @@
 /.DS_STORE
 
 # Production files
-/cf
+/cf*
 /MinGW/
 problems
