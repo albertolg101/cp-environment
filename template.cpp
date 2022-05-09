@@ -1,13 +1,9 @@
 #include <bits/stdc++.h>
-#pragma GCC optimization("Ofast")
-#pragma GCC target("avx2")
 
 using namespace std;
     
 #ifdef __local_leywar
-#include "../../debug/debugger.h"
-#else
-#pragma once    
+#include "../../debug/debugger.h"  
 #endif
     
 #define int long long
