@@ -1,4 +1,4 @@
-# cp-enviroment
+# cp-environment
 
 [C++17 Windows](https://nuwen.net/mingw.html)
 
